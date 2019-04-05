@@ -26,5 +26,5 @@ if not rects:
 else:
     
     # Define e retorna no objeto shape os 5 pontos de referência dentro do rosto encontrado
-    # Pode encontrar uma ou mais, porém utiliza-se somente a primeira
+    # Pode encontrar um ou mais, porém neste caso tem-se certeza de que a foto tem apenas um rosto
     shape = predictor(rgb, rects[0])
