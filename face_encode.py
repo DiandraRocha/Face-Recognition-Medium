@@ -28,6 +28,6 @@ else:
     
     # Utiliza o face encoder, treinado pelo arquivo dat fornecido, 
     # usando o numpy array RGB e os pontos indicados pelo predictor 
-    # para gerar os encodings baseado em 5 pontos faciais: canto dos olhos e base do nariz
+    # para gerar os encodings baseado em 5 pontos faciais: cantos dos olhos e base do nariz
     encodings = np.array(face_encoder.compute_face_descriptor(rgb, shape, 1))
     print (encodings) 
